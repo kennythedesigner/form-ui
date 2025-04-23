@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jarka Sans', sans-serif;
+  background-color: #F5F5DC;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  padding: 15px;
+  border: solid 4px  #4169E1;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+label {
+  margin: 5px;
+  font-size: 1em;
+  font-family: 'Plus Jarka Sans', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #4169E1;
+}
+input {
+  margin: 5px;
+  font-size: 1em;
+  font-family: 'Plus Jarka Sans', sans-serif;
+  font-weight: bold;
+  padding: 0.5em;
+}
+button {
+  padding: 0.5em;
+  background-color:  #4169E1;
+  color: white;
+}
+h1, h4, p {
+  padding: 5px;
+  margin: 5px;
+  color: #4169E1;
+}
